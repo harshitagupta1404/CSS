@@ -1,0 +1,65 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#boundary{
+    background-color: orange;
+    width:110px;
+    padding:10px;
+    text-align: center;
+}
+#stop{
+    height:100px;
+    width: 100px;
+    border-radius:50%;
+    background-color: red;
+    line-height: 100px;
+    margin:5px;
+}
+#wait{
+    height:100px;
+    width: 100px;
+    border-radius:50%;
+    background-color: yellow;
+    line-height: 100px;
+    margin:5px;
+}
+#go{
+    height:100px;
+    width: 100px;
+    border-radius:50%;
+    background-color: green;
+    line-height: 100px;
+    margin:5px;
+}
+
+p{
+    line-height: 20px;
+    color:red;
+}
+
+input{
+    text-transform:uppercase;
+}
+
+#heading{
+    /* text-align: center; */
+    /* text-transform: capitalize; */
+    height: 50px;
+    width :200px;
+    border:red dashed 4px;
+    background-color: orange;
+    border-radius: 25%;
+}
+
+
+#outer{
+    font-size: 25px;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+#inner{
+    font-size: 10px;
+}

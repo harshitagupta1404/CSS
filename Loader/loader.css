@@ -1,0 +1,15 @@
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: dashed black;
+    /* border-width: 5px 4px 3px 3px; */
+    border-width: 5px;
+    border-color: rgba(41, 41, 41, 0.811) grey rgba(41, 41, 41, 0.596) darkgray ;
+    animation: spin 3s infinite ;
+}
+
+@keyframes spin{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
