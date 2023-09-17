@@ -1,0 +1,32 @@
+body{
+    text-align:center;
+}
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:2px solid black;
+}
+#container{
+    height: 400px;
+    width: 400px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: bisque;
+}
+#box3{
+    background-color: aquamarine;
+}
+#box4{
+    background-color: thistle;
+}
+#box5{
+    background-color: yellowgreen;
+}

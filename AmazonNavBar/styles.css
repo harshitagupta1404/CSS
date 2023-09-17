@@ -1,0 +1,54 @@
+/* Good practice to set padding margin 0 initially */
+*{
+    padding:0;
+    margin:0;
+    color: white;
+}
+
+#navbar{
+    background-color: #0f1111;
+    height: 60px;
+}
+
+#amazon{
+    color:#f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 180px;
+}
+
+#search{
+    background-color:#f08804;
+    color:white;
+    margin-right:20px;
+}
+
+.content{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    display:inline-block;
+}
+
+footer{
+    background-color: black;
+}
+
+#content{
+    height:510px;
+}
+
+#test1{
+    height: 171px;
+    width:171px;
+    background-color: red;
+    font-size: 0.5em;
+}
+#test2{
+    height:50%;
+    width:33%;
+    background-color: green;
+    font-size: 2em;
+}

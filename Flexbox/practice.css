@@ -1,0 +1,29 @@
+.navbar{
+    background-color: khaki;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    display:inline;
+}
+
+#outer{
+    background-color: chocolate;
+    height:250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inner{
+    background-color: royalblue;
+    height: 100px;
+    width: 100px;
+}
